@@ -7,7 +7,7 @@
 // Input 1: What name style do you prefer? 
 // Options: Classical (Grand, Emcee, Eazy) Neo-Classical (Big, MC) Aughts (Lil)  Modern (The Rapper, The Artist, Etc.) Post-Modern (Choose a string of 3 random numbers from 1-9)
 //Options: Epic (tupac or nas) noun (ice cube or too short) colorful (Sexy Redd or Kodak black) funny name (Snoop Dogg or busta rhymes) scary (21 savage or scarface)
-
+//Received assistance from Michael Kazim, Justin Jimenez, and Justin Joshi.
 document.getElementById(('epic')).addEventListener('click', checkEpic)
 document.getElementById(('noun')).addEventListener('click', checkNoun)
 document.getElementById(('colorful')).addEventListener('click', checkColorful)
@@ -82,21 +82,21 @@ function secondRound() {
   thirdThing = definingWord
   console.log("Input 3 (Defining Word):", thirdThing)
 
-  //input 4:favorite borrough in New York?
+  //input 4:favorite borrough in New York
   const borough = document.querySelector('#borough').value
   fourthThing = borough
   console.log("Input 4 (Borough):", fourthThing)
 
-  //input 5: music streaming preference spotify or apple music?
+  //input 5: music streaming preference spotify or apple music
   const platform = document.querySelector('#platform').value
   fifthThing = platform
   console.log("Input 5 (Platform):", fifthThing)
 
-  // 🎤 Generate Wu-Tang style name
+  // Generate your Wu-Tang style name
   generateName()
 }
 
-// 🎤 Combine all inputs into a Wu-Tang style name
+// Combine all inputs into a Wu-Tang style name
 function generateName() {
   const wuTangParts = [
     "Iron", "Ghost", "Blaze", "Razor", "Dirty", "Killer", "Divine", "Mad", "Method", "Golden"
@@ -107,11 +107,7 @@ function generateName() {
 
   console.log("Your Wu-Tang Name:", newName)
 
-  // 🧾 Display name in DOM
+  // Display answer
   const resultDiv = document.getElementById('result')
   resultDiv.innerHTML = `<h2>Your Wu-Tang name is:</h2><p class="wuName">${newName}</p>`
 }
-
-//input 3:one word that defines you?
-//input 4:favorite borrough in New York?
-//input 5: music streaming preference spotify or apple music?
