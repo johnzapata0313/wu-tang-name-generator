@@ -1,4 +1,4 @@
-Wu-Tang Name Style generator
+# Wu-Tang Name Style generator
 
 ![9E96B77E-1579-45A3-AE89-83D2A97FEC1F](https://github.com/user-attachments/assets/59fd9f85-ee77-442f-b87f-6d0fd630c06e)
 
